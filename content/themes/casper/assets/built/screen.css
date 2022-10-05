@@ -262,7 +262,8 @@ body:not(.has-cover) .site-header-content:not(.left-aligned) {
 .has-cover:not(.home-template) .gh-head {
     /* background-color: var(--ghost-accent-color); */
     color: #fff;
-    background: url(https://www.abilityarena.com/images/site/top_nav_bg.png) no-repeat;
+    background: url(https://ability-arena-ghost.herokuapp.com/assets/built/navbg.png);
+        background-size: contain;
     
 }
 
