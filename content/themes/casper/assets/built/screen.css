@@ -322,7 +322,8 @@ body:not(.has-cover) .site-header-content:not(.left-aligned) {
 }
 
 .gh-head-logo {
-    display: block;
+    display: flex;
+    align-items: center;
     font-weight: 800;
     font-size: 2.6rem;
     letter-spacing: -0.02em;
@@ -382,6 +383,7 @@ body:not(.has-cover) .site-header-content:not(.left-aligned) {
 }
 
 .gh-head-menu .nav a {
+    color: #ae803b;
     display: inline-block;
     line-height: 1.7;
     color: inherit;
