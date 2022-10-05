@@ -388,7 +388,7 @@ body:not(.has-cover) .site-header-content:not(.left-aligned) {
     color: #ae803b;
     display: inline-block;
     line-height: 1.7;
-    color: inherit;
+    /*color: inherit;*/
 }
 
 .gh-head-menu .nav a:hover {
