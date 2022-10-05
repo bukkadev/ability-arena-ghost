@@ -22,7 +22,6 @@
     "node": "14.X"
   },
   "dependencies": {
-    "casperAbilityArena": "github:bukkadev/CasperForAbilityArena#main",
     "ghost": "4.48.2",
     "ghost-storage-adapter-s3": "^2.8.0",
     "ghost-storage-cloudinary": "^2.2.4",
@@ -30,6 +29,6 @@
   },
   "scripts": {
     "start": "node thelovekesh.js",
-    "postinstall": "bash bin/cloudinary.sh && bash bin/aws-s3.sh && bash bin/themes.sh"
+    "postinstall": "bash bin/cloudinary.sh && bash bin/aws-s3.sh"
   }
 }
