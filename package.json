@@ -22,7 +22,7 @@
     "node": "14.X"
   },
   "dependencies": {
-    "casper": "github:bukkadev/Casper#main",
+    "casper": "github:bukkadev/CasperForAbilityArena#main",
     "ghost": "^4.48.5",
     "ghost-storage-adapter-s3": "^2.8.0",
     "ghost-storage-cloudinary": "^2.2.4",
